@@ -1,0 +1,14 @@
+*~
+*.pyc
+
+.env
+.coverage
+
+.idea/
+.pytest_cache/
+.tox/
+
+__pycache__/
+
+venv/
+static/
