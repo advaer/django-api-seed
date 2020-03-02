@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     # Third-party apps
 
     # Custom apps
+    'src.apps.examples',
 ]
 
 MIDDLEWARE = [
