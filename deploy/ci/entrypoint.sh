@@ -17,5 +17,5 @@ gunicorn --reload \
          --worker-class=sync \
          --workers=5 \
          --threads=1 \
-         --name=rearchitecture_prototype_service \
+         --name=django_api_seed \
          --pythonpath src
