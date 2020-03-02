@@ -1,0 +1,77 @@
+[
+{
+  "model": "examples.artist",
+  "pk": 1,
+  "fields": {
+    "created": "2020-03-02T13:16:22.009Z",
+    "modified": "2020-03-02T13:16:22.009Z",
+    "artist_name": "Queen",
+    "country_code": "UK"
+  }
+},
+{
+  "model": "examples.artist",
+  "pk": 2,
+  "fields": {
+    "created": "2020-03-02T13:17:35.828Z",
+    "modified": "2020-03-02T13:17:35.828Z",
+    "artist_name": "Metallica",
+    "country_code": "US"
+  }
+},
+{
+  "model": "examples.album",
+  "pk": 1,
+  "fields": {
+    "created": "2020-03-02T13:19:47.975Z",
+    "modified": "2020-03-02T13:19:47.975Z",
+    "artist": 1,
+    "album_title": "News of the World",
+    "year": 1977
+  }
+},
+{
+  "model": "examples.album",
+  "pk": 2,
+  "fields": {
+    "created": "2020-03-02T13:20:17.539Z",
+    "modified": "2020-03-02T13:20:17.539Z",
+    "artist": 1,
+    "album_title": "A Kind of Magic",
+    "year": 1986
+  }
+},
+{
+  "model": "examples.album",
+  "pk": 3,
+  "fields": {
+    "created": "2020-03-02T13:21:03.595Z",
+    "modified": "2020-03-02T13:21:03.595Z",
+    "artist": 1,
+    "album_title": "Jazz",
+    "year": 1978
+  }
+},
+{
+  "model": "examples.album",
+  "pk": 4,
+  "fields": {
+    "created": "2020-03-02T13:21:44.393Z",
+    "modified": "2020-03-02T13:21:44.393Z",
+    "artist": 2,
+    "album_title": "...And Justice for All",
+    "year": 1988
+  }
+},
+{
+  "model": "examples.album",
+  "pk": 5,
+  "fields": {
+    "created": "2020-03-02T13:22:07.141Z",
+    "modified": "2020-03-02T13:22:07.141Z",
+    "artist": 2,
+    "album_title": "Hardwired... to Self-Destruct",
+    "year": 2016
+  }
+}
+]
