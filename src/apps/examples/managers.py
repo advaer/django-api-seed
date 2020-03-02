@@ -1,0 +1,1 @@
+from src.apps.core.managers import BaseManager
