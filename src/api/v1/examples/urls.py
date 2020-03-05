@@ -3,12 +3,12 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('farms/', views.FarmListView.as_view(), name='farm-list'),
-    path('farms/<int:pk>/', views.FarmView.as_view(), name='farm'),
+    path('artists/', views.ArtistListView.as_view(), name='artist-list'),
+    path('artists/<int:pk>/', views.ArtistView.as_view(), name='artist'),
 
-    path('fields/', views.FieldListView.as_view(), name='field-list'),
-    path('fields/<int:pk>/', views.FieldView.as_view(), name='field'),
+    path('albums/', views.AlbumListView.as_view(), name='album-list'),
+    path('albums/<int:pk>/', views.AlbumView.as_view(), name='album'),
 
-    path('farms/fields/', views.FarmFieldsListView.as_view(), name='farm-fields-list'),
-    path('farms/<int:pk>/fields/', views.FarmFieldsView.as_view(), name='farm-fields'),
+    path('artists/albums/', views.ArtistAlbumsListView.as_view(), name='artist-albums-list'),
+    path('artists/<int:pk>/albums/', views.ArtistAlbumsView.as_view(), name='artist-albums'),
 ]
