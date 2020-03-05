@@ -5,21 +5,21 @@ from .models import Artist, Album
 
 class ArtistService(GenericBaseService):
     """
-    Generic Service for Farm model CRUD
+    Generic Service for Artist model CRUD
     """
     model_class = Artist
 
 
 class AlbumService(GenericBaseService):
     """
-    Generic Service for Field model CRUD
+    Generic Service for Album model CRUD
     """
     model_class = Album
 
 
 class ArtistAlbumService(BaseService):
     """
-    Custom Service to manage Farm Field relations
+    Custom Service to manage Artist Album relations
     """
     @classmethod
     def get_artist_albums(cls, pk):

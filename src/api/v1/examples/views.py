@@ -39,8 +39,8 @@ class ArtistAlbumsView(BaseAPIView):
 
     def get(self, request, pk, format=None):
         try:
-            farm = ArtistAlbumService.get_artist_albums(pk)
+            artist = ArtistAlbumService.get_artist_albums(pk)
         except KeyError:
             raise Http404
-        serializer = ArtistSerializer(farm)
+        serializer = ArtistSerializer(artist)
         return Response(serializer.data)
