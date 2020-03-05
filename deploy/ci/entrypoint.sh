@@ -18,4 +18,5 @@ gunicorn --reload \
          --workers=5 \
          --threads=1 \
          --name=django_api_seed \
-         --pythonpath src
+         --pythonpath src \
+         'src.wsgi'
