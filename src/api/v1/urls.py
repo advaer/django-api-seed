@@ -1,6 +1,6 @@
 from django.urls import include, path
 
-from src.api.v1 import views
+from src.api import views
 from src.api.v1.examples.urls import urlpatterns as examples_urls
 
 urlpatterns = [

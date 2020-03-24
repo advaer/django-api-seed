@@ -1,7 +1,8 @@
 from django.http import Http404
 from rest_framework.response import Response
 
-from src.api.core.views import BaseAPIView, GenericAPIListView, GenericAPIView
+from src.api.core.generics import GenericAPIListView, GenericAPIView
+from ...core.views import BaseAPIView
 from src.apps.examples.services import ArtistAlbumService, ArtistService, AlbumService
 
 from .serializers import ArtistSerializer, AlbumSerializer

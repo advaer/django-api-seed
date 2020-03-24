@@ -1,4 +1,4 @@
-<h1>Django API Seed Project.</h1>
+<h1>Growth Simulator API PoC.</h1>
 
 
 <h5>Setup project:</h5>
@@ -12,7 +12,9 @@
     <code>$  python manage.py migrate</code>
 <li>Populate tables with examples data (optional)<br>
     <code>$ python manage.py loaddata initial</code>
-<li>Create admin user (optional)<br>
+<li>Load user: "localadmin" with password "strongpassword" fixture (optional)<br>
+    <code>$ python manage.py loaddata src/apps/core/fixtures/local_admin</code>
+<li>OR Create admin user (optional)<br>
     <code>$ python manage.py createsuperuser</code>
 </ol>
 
